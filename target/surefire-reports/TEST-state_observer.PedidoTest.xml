@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="state_observer.PedidoTest" time="0.121" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pedro\Downloads\Desafio2\Desafio2-State-Observer-\target\test-classes;C:\Users\Pedro\Downloads\Desafio2\Desafio2-State-Observer-\target\classes;C:\Users\Pedro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\Pedro\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Pedro\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\Pedro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pedro\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Pedro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Users\Pedro\AppData\Local\Programs\Microsoft\jdk-11.0.32.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Pedro\AppData\Local\Temp\surefire5375815480766980908\surefirebooter-20261004225829410_3.jar C:\Users\Pedro\AppData\Local\Temp\surefire5375815480766980908 2026-10-04T22-58-29_159-jvmRun1 surefire-20261004225829410_1tmp surefire_0-20261004225829410_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pedro\Downloads\Desafio2\Desafio2-State-Observer-\target\test-classes;C:\Users\Pedro\Downloads\Desafio2\Desafio2-State-Observer-\target\classes;C:\Users\Pedro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\Pedro\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Pedro\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\Pedro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pedro\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Pedro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pedro"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Users\Pedro\AppData\Local\Programs\Microsoft\jdk-11.0.32.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Pedro\Downloads\Desafio2\Desafio2-State-Observer-"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pedro\AppData\Local\Temp\surefire5375815480766980908\surefirebooter-20261004225829410_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.32.1+1-LTS"/>
+    <property name="user.name" value="Pedro"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-14930745"/>
+    <property name="localRepository" value="C:\Users\Pedro\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pedro\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.32.1"/>
+    <property name="user.dir" value="C:\Users\Pedro\Downloads\Desafio2\Desafio2-State-Observer-"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\Pedro\AppData\Local\Programs\Microsoft\jdk-11.0.32.101-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\doxygen\bin;C:\Program Files\nodejs\;C:\Users\Pedro\AppData\Local\Programs\Microsoft\jdk-11.0.32.101-hotspot\bin;C:\Users\Pedro\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Pedro\AppData\Local\Programs\Python\Python313\;C:\Users\Pedro\AppData\Local\Programs\Python\Launcher\;C:\Users\Pedro\AppData\Local\Microsoft\WindowsApps;C:\Users\Pedro\AppData\Local\Programs\Microsoft VS Code\bin;C:\mingw64\bin;C:\Program Files\doxygen;C:\Users\Pedro\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\Pedro\AppData\Roaming\npm;C:\maven\apache-maven-3.9.16\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.32.1+1-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="deveNotificarClienteAoPagarPedido" classname="deveNotificarClienteAoPagarPedido()" time="0.071"/>
+  <testcase name="deveNotificarClienteAoEnviarPedido" classname="deveNotificarClienteAoEnviarPedido()" time="0.009"/>
+  <testcase name="deveIniciarPedidoComoNovo" classname="deveIniciarPedidoComoNovo()" time="0.002"/>
+  <testcase name="deveNotificarClienteAoEntregarPedido" classname="deveNotificarClienteAoEntregarPedido()" time="0.002"/>
+  <testcase name="deveNotificarClienteAoCancelarPedido" classname="deveNotificarClienteAoCancelarPedido()" time="0.002"/>
+  <testcase name="deveNotificarDoisClientes" classname="deveNotificarDoisClientes()" time="0.001"/>
+  <testcase name="naoDeveNotificarClienteNaoInscrito" classname="naoDeveNotificarClienteNaoInscrito()" time="0.002"/>
+  <testcase name="deveNotificarApenasClienteDoPedidoAcompanhado" classname="deveNotificarApenasClienteDoPedidoAcompanhado()" time="0.001"/>
+  <testcase name="naoDeveNotificarClienteQuandoEstadoNaoMudar" classname="naoDeveNotificarClienteQuandoEstadoNaoMudar()" time="0.002"/>
+</testsuite>
