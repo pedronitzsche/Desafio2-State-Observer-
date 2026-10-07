@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: state_observer.PedidoTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 s -- in state_observer.PedidoTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s -- in state_observer.PedidoTest

@@ -1,8 +1,8 @@
-state_observer\Cliente.class
-state_observer\PedidoEstado.class
-state_observer\Pedido.class
-state_observer\PedidoNovo.class
-state_observer\PedidoEnviado.class
-state_observer\PedidoPago.class
-state_observer\PedidoCancelado.class
-state_observer\PedidoEntregue.class
+state_observer/Pedido.class
+state_observer/PedidoNovo.class
+state_observer/PedidoEnviado.class
+state_observer/PedidoEntregue.class
+state_observer/PedidoEstado.class
+state_observer/Cliente.class
+state_observer/PedidoCancelado.class
+state_observer/PedidoPago.class

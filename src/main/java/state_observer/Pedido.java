@@ -6,8 +6,13 @@ public class Pedido extends Observable {
 
     private String descricao;
     private PedidoEstado estado;
+    private Cliente cliente;
 
-    public Pedido() {
+    public Pedido(Cliente cliente) {
+        if(cliente == null) {
+            System.out.println("Não existe cliente associado a esse pedido");
+        }
+        this.cliente = cliente;
         this.estado = PedidoNovo.getInstance();
     }
 

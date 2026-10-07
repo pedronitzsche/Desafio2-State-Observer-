@@ -12,7 +12,7 @@ class PedidoTest {
 
     @BeforeEach
     void setUp() {
-        pedido = new Pedido();
+        pedido = new Pedido(cliente);
         pedido.setDescricao("Pedido 1");
         cliente = new Cliente("Cliente 1");
     }
@@ -120,10 +120,12 @@ class PedidoTest {
 
     @Test
     void deveNotificarApenasClienteDoPedidoAcompanhado() {
-        Pedido pedido2 = new Pedido();
-        pedido2.setDescricao("Pedido 2");
 
         Cliente cliente2 = new Cliente("Cliente 2");
+        Pedido pedido2 = new Pedido(cliente2);
+        pedido2.setDescricao("Pedido 2");
+
+        
 
         cliente.acompanhar(pedido);
         cliente2.acompanhar(pedido2);
